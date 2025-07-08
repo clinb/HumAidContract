@@ -6,6 +6,7 @@
 	"output": {
 		"abi": [],
 		"devdoc": {
+			"details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -18,7 +19,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HumAidToken.sol": "Context"
+			"HumAidToken_flattened.sol": "Context"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +33,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"HumAidToken.sol": {
-			"keccak256": "0x75ded99662779570c8264349a9c5c01874e29f11dd0265819115eb9f4e6fdd3a",
+		"HumAidToken_flattened.sol": {
+			"keccak256": "0x9a21d1de691d9c877e8a7165305b7b4f5b839113f97ede8ad6900ced5e114f03",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f3679b8be6d89818d6af65cd0a583f4c8519344ac906e6b5bf512f41c81208d",
-				"dweb:/ipfs/QmUmFjwoxKvm1SBRTp7cV3FNWJz95frrnCwzzRwEqyNwjT"
+				"bzz-raw://e2809e81edd80dc3cbfe75cc74febd4ec7e1191c40884022091325d6f3df9087",
+				"dweb:/ipfs/QmV1UucaFVfWv9QLuZfXkdP7eYSPSzeaFF8ufjFV9UhvCH"
 			]
 		}
 	},
